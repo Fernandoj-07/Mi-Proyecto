@@ -1,0 +1,44 @@
+/* esta propiedad hidden lo que hace es que esconde la informacion que se encuentra fuera del contenedor, y no hay manera de que podamos acceder a ella */
+.contenedor__hidden{
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+/* esta propiedad scroll lo que hace es que me coloca una barra de deslizamiento al lado para ver el contenido */
+.contenedor__scroll{
+    margin: 15px 0;
+    background-color: rgb(172, 137, 95);
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+}
+
+/* tambien le podemos decir manualmente a overflow-y: scroll; que nos coloque la barra de desplazamiento en el eje x o y donde queramos pero esto lo podemos optimizar utilizando overflow: auto; */
+.contenedor__scroll__y{
+    margin: 15px 0;
+    background-color: rgb(172, 137, 95);
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+/* esta propiedad visible es la que aparece por defecto en nuestro navegador y en la cual puede llegar a salir del contenedor que le demos si no lo ajustamos */
+.contenedor__visible{
+    margin: 15px 0;
+    background-color: rgb(196, 184, 170);
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+}
+
+/* esta propiedad auto nos optimiza en donde esta el viwport y te coloca las barras para navegar donde es necesario en el eje de las "ies" a diferencia del scroll que la coloca al lado y abajo por defecto */
+.contenedor__auto{
+    margin: 15px 0;
+    background-color: rgb(192, 188, 185);
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+
