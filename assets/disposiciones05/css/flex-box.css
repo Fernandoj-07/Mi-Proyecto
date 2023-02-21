@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    background-color: aqua;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor-1{
+    background-color: rgb(228, 221, 18);
+    width: 100px;
+    /* height: 100px; cuando le damos una altura olbligamos al div a que se quede con esa altura*/
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.contenedor-2{
+    background-color: blue;
+    width: 100px;
+    /* height: 100px; */
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.contenedor-3{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    /* height: 100px; */
+    border: 3px solid black;
+    border-radius: 5px;
+}
