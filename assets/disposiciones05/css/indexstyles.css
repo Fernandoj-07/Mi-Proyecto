@@ -1,0 +1,23 @@
+.div-1, .div-2{
+    background-color: red;
+    /*  display: block; ESTA PROPIEDAD PARA LOS DIV VIENE POR DEFECTO EN EL NAVEGADOR*/
+}
+
+.span-1{
+    background-color: aqua;
+    float: left;
+    /*display: inline; ESTA PROPIEDAD ESTA POR DEFECCTO EN EL NAVEGADOR PARA display: inline;*/
+
+}
+
+.span-2{
+    background-color: blue;
+    float: right;
+     /*display: inline; ESTA PROPIEDAD ESTA POR DEFECCTO EN EL NAVEGADOR PARA display: inline;*/
+}
+
+.img{
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+}

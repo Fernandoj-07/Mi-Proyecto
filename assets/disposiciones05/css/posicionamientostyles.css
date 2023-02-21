@@ -1,0 +1,47 @@
+div{
+    border: 1.5px solid gray;
+    padding: 5px;
+    margin: 8px;
+}
+
+.static{
+    /*este viene por defecto en el navegador*/
+}
+
+/*esto es en funcion al posicionamiento original, en relacion al left: se le esta diciendo que se mueva 80px hacia la izquierda, y no tiene nada que ver con el posicionamiento, no e sni margen ni padding ni nada de eso.
+margin-left: 10px; lo mismo pasa con esta propiedad se puede modificar estando ya dada en todos los DIV como lo vemos en la propiedad de arriba*/
+.relative{
+    position:relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+/*Esta propiedad fija las cosas, e independientemente de otra posicion que la pagina tenga este se queda donde nosotros le digamos ya sea arriba(top) o abajo(bottom) o la izquierda(left) o a la derecha(rigth) este esta por encima de todo el contenido de la pagina*/
+.fixed{
+   position: fixed;
+   background-color: chartreuse;
+   bottom: 0px;
+   right: 0px;
+   z-index: 10;
+}
+
+/*este se especifica con las propiedades, top, rigth, bottom, left.*/
+.absolute{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.relative.contenedor{
+    width: 250px;
+    height: 75px;
+    background-color: blue;
+}
+
+/*utiliza una mezcla entre el relativo y el fijo o fixed, lo que hace es quedarse arriba de los demas div al momento de hacer escrool modifica su posicion, para que siempre este visible se utiliza mucho para hacer menus que se muestren siempre*/
+.sticky{
+    position: sticky;
+    background-color: darkgoldenrod;
+    color: white;
+    top: 0px;
+    z-index: 2 ;
+}
